@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta charset="utf-8">
+<!-- 
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2014 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at http://typo3.org/
+-->
+
+<base href="http://www.mpi-inf.mpg.de/">
+<link rel="shortcut icon" href="http://www.mpi-inf.mpg.de/fileadmin/inf/res/static/favicon.ico" type="image/x-icon; charset=binary">
+<link rel="icon" href="http://www.mpi-inf.mpg.de/fileadmin/inf/res/static/favicon.ico" type="image/x-icon; charset=binary">
+<title>Max-Planck-Institut für Informatik: CExploring Latent Semantic Factors to Find Useful Product Reviews</title>
+<meta name="generator" content="TYPO3 6.2 CMS">
+
+
+<link rel="stylesheet" type="text/css" href="typo3temp/stylesheet_993134cfc3.css?1400747156" media="all">
+<link rel="stylesheet" type="text/css" href="typo3conf/ext/cl_jquery_fancybox/fancybox2/jquery.fancybox.css?1374837260" media="screen">
+<link rel="stylesheet" type="text/css" href="fileadmin/inf/res/css/core/base.css?1374047553" media="all">
+<link rel="stylesheet" type="text/css" href="fileadmin/inf/res/css/navigation/dropdown.css?1374064102" media="all">
+<link rel="stylesheet" type="text/css" href="fileadmin/inf/res/css/screen/typography.css?1376048151" media="all">
+<link rel="stylesheet" type="text/css" href="fileadmin/inf/res/css/screen/standard-page.css?1378283080" media="all">
+<link rel="stylesheet" type="text/css" href="fileadmin/inf/res/css/screen/grey.css?1374064102" media="all">
+<link rel="stylesheet" type="text/css" href="fileadmin/inf/res/css/navigation/navleft_responsive.css?1376052681" media="all">
+<link rel="stylesheet" type="text/css" href="fileadmin/inf/res/css/screen/address.css?1375970149" media="all">
+<link rel="stylesheet" type="text/css" href="fileadmin/inf/sys/css/screen/pink.css?1372661188" media="all">
+<link rel="stylesheet" type="text/css" href="fileadmin/inf/res/css/screen/publications.css?1391603028" media="all">
+<link rel="stylesheet" type="text/css" href="fileadmin/inf/res/css/screen/rte.css?1374064102" media="all">
+<link rel="stylesheet" type="text/css" href="fileadmin/inf/res/css/screen/misc.css?1399967758" media="all">
+<link rel="stylesheet" type="text/css" href="fileadmin/inf/res/css/forms/forms.css?1376652252" media="all">
+<link rel="stylesheet" type="text/css" href="fileadmin/inf/res/css/screen/ist_pink.css?1389944382" media="all">
+<link rel="stylesheet" type="text/css" href="fileadmin/inf/res/css/print/print.css?1375283785" media="print">
+<link rel="stylesheet" type="text/css" href="fileadmin/inf/res/css/screen/d5_database.css" media="all">
+
+
+
+<script src="fileadmin/inf/ist/js/jquery-1.10.1.min.js?1371190476" type="text/javascript"></script>
+<script src="fileadmin/inf/ist/js/jquery-ui-1.10.3.custom.min.js?1371199808" type="text/javascript"></script>
+<script src="typo3conf/ext/solr/Resources/JavaScript/EidSuggest/suggest.js?1399384894" type="text/javascript"></script>
+<script src="fileadmin/inf/res/script/mdetect.js?1374047553" type="text/javascript"></script>
+
+
+<!--[if lte IE 7]>
+            <link href="/fileadmin/inf/res/css/core/iehacks.css" rel="stylesheet" type="text/css" />
+            <![endif]--><style type="text/css">
+            div#image{background-image:url('fileadmin/_migrated/pics/header_22.jpg');}
+            </style>
+            <meta id="viewport" name="viewport" content="width=device-width">
+            <meta name="apple-mobile-web-app-capable" content="yes" />
+
+            <!-- BlackBerry, Palm and others use the Handheld Friendly tag -->
+            <meta name="HandheldFriendly" content="true" />
+
+            <!-- Windows Mobile (and WP7?) use the MobileOptimized and cleartype values -->
+            <meta name="MobileOptimized" content="width" />
+
+            <!-- Tell Google that we're already on the mobile version -->
+            <!--<link rel="alternate" media="handheld" href="" />-->
+
+            <!-- Pull the latest version of the JavaScript MobileESP code library from the web site. -->
+            <!-- Included by TYPO3 -->
+
+            <script type="text/javascript" >
+            var time = null;
+            if (isTierTablet)
+            {
+                document.getElementById("viewport").setAttribute("content","width=device-width, initial-scale=1");
+            }
+            if (isTierIphone)
+            {
+                document.getElementById("viewport").setAttribute("content","width=device-width");
+            }
+            //-->
+            </script>  
+
+            <!-- Load jQuery for ist_pubman extension -->
+            <script type='text/javascript'>
+            $(function() {
+            $('[class^=ist_toggle]').hide();
+            //toggle content on click
+            $('[class^=detail]').click(function() {
+            var $toggleItem = $('.ist_toggle_' + $(this).attr("class"));
+            var $toggleLink = $(this);
+            $toggleItem.slideToggle(function() {
+            var $stateSpan = $('<span class="state"></span>');
+            $toggleItem.is(':visible') ? $stateSpan.text('[hide...]') : $stateSpan.text('[more...]');
+            $toggleLink.children('.state').remove().end().prepend($stateSpan);
+            });
+            }).prepend($('<span class="state">[more...]</span>'));
+            });    
+            </script>
+<link href="fileadmin/inf/res/css/screen/jquery_ui.css?1376652485" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body>
+
+
+<ul class="ym-skiplinks">
+	<li><a class="ym-skip" href="http://people.mpi-inf.mpg.de/~smukherjee/jast.html/#nav">Skip to navigation (Press Enter)</a></li>
+	<li><a class="ym-skip" href="http://people.mpi-inf.mpg.de/~smukherjee/jast.html/#main">Skip to main content (Press Enter)</a></li>
+</ul>
+
+<div class="ym-wrapper">
+	<div class="ym-wbox">
+        <div id="header">
+	    <div id="top_navhelp"><ul><li><a href="http://people.mpi-inf.mpg.de/~smukherjee/jast.html/">Deutsch</a></li></ul><ul class="linklist"><li><a href="institute/address/" >Location</a></li><li class="last"><a href="news/press-releases/" >Press</a></li></ul><ul><li><a href="https://domino.mpi-inf.mpg.de/" target="_top">Intranet</a></li></ul></div>
+            <div id="logo">
+               <img src="fileadmin/inf/user/medien/logo_mpi_430.png" width="430" height="91" alt="Logo" usemap="#Logo">
+               <map name="Logo">
+                  <area shape="rect" coords="0,0,90,90"
+                     href="http://www.mpg.de/" alt="Max Planck Society" title="Max Planck Society">
+                  <area shape="rect" coords="90,0,430,90"
+                     href="/" alt="Max Planck Institute for Informatics" title="Max Planck Institute for Informatics">
+               </map>
+            </div>
+	    <div id="search">
+	<!--  CONTENT ELEMENT, uid:738/list [begin] -->
+		<div id="c738" class="csc-default">
+		<!--  Plugin inserted: [begin] -->
+			
+
+
+	<!--
+
+		BEGIN: Content of extension "solr", plugin "tx_solr"
+
+	-->
+	<div class="tx-solr">
+		
+
+	
+	<div class="tx-solr-searchbox">
+		<script type="text/javascript">
+				/*<![CDATA[*/
+				var tx_solr_suggestUrl = 'http://www.mpi-inf.mpg.de/?eID=tx_solr_suggest&id=2039';
+				/*]]>*/
+				</script>
+			
+		<form id="tx-solr-search-form-pi-search" action="search/" method="get" accept-charset="utf-8">
+			<input type="hidden" name="id" value="266" />
+			<input type="hidden" name="L" value="0" />
+			<input type="text" id="inputText" class="tx-solr-q" name="q" value="" />
+			<input type="image" id="inputButton" src="fileadmin/inf/sys/static/symbols/searchbutton.png" alt="Search" title="Search" />
+		</form>
+	</div>
+	
+
+
+	</div>
+	
+	<!-- END: Content of extension "solr", plugin "tx_solr" -->
+
+	
+		<!--  Plugin inserted: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:738/list [end] -->
+		</div>
+      </div>
+     	  <div id="top_image"> 
+		<div id="image">
+                    <div id="department_symbol">D5</div>
+                    <div id="department_name">Databases and Information Systems</div>
+	        </div>
+		  <div id="nav">
+				<div class="ym-hlist" ><ul class="linklist"><li><a href="home/" >Home</a></li><li><a href="institute/" >Institute</a><ul class="linklist"><li><a href="institute/mission/" >Mission</a></li><li><a href="institute/address/" >Address</a></li><li><a href="institute/executive-board/" >Executive Board</a></li><li><a href="institute/directorate/" >Directorate</a></li><li><a href="institute/scientific-advisory-board/" >Scientific Advisory Board</a></li><li class="last"><a href="institute/board-of-trustees/" >Board of Trustees</a></li></ul></li><li><a href="news/" >News</a><ul class="linklist"><li><a href="news/press-releases/" >Press Releases</a></li><li><a href="news/awards/" >Awards</a></li><li><a href="news/spotlights/" >Spotlights</a></li><li><a href="news/campus-event-calendar/" >Campus Event Calendar</a></li><li class="last"><a href="news/employment/" >Employment</a></li></ul></li><li><a href="departments/"  class="act">Departments</a><ul class="linklist"><li><a href="departments/algorithms-complexity/" >Algorithms &amp; Complexity</a></li><li><a href="departments/computer-vision-and-multimodal-computing/" >Computer Vision and Multimodal Computing</a></li><li><a href="departments/computational-biology-applied-algorithmics/" >Computational Biology &amp; Applied Algorithmics</a></li><li><a href="departments/computer-graphics/" >Computer Graphics</a></li><li><a href="departments/databases-and-information-systems/"  class="act">Databases and Information Systems</a></li><li class="last"><a href="departments/automation-of-logic/" >Automation of Logic</a></li></ul></li><li><a href="publications/" >Publications</a><ul class="linklist"><li><a href="departments/algorithms-complexity/publications/" >D1 - Algorithms &amp; Complexity</a></li><li><a href="departments/computer-vision-and-multimodal-computing/publications/" >D2 - Computer Vision and Multimodal Computing</a></li><li><a href="departments/computational-biology-applied-algorithmics/publications/" >D3 - Computational Biology &amp; Applied Algorithmics</a></li><li><a href="departments/computer-graphics/publications/" >D4 - Computer Grapics</a></li><li><a href="departments/databases-and-information-systems/publications/" >D5 - Databases and Information Systems</a></li><li><a href="departments/automation-of-logic/publications/" >Automation of Logic</a></li><li class="last"><a href="publications/research-reports/" >Research Reports</a></li></ul></li><li><a href="people/" >People</a></li><li><a href="software/" >Software</a></li><li class="last"><a href="services/" >Services</a><ul class="linklist"><li><a href="services/central-administration/" >Central Administration</a></li><li><a href="services/information-services-technology/" >Information Services &amp; Technology</a></li><li><a href="services/building-and-technical-support/" >Building and Technical Support</a></li><li><a href="services/library/" >Library</a></li><li><a href="services/public-relations/" >Public Relations</a></li><li><a href="services/research-coordination/" >Research Coordination</a></li><li><a href="services/care-appointees/" >Care Appointees</a></li><li><a href="services/ombudsperson/" >Ombudsperson</a></li><li class="last"><a href="services/int-office/" >International Office</a></li></ul></li></ul></div>
+		  </div>
+      </div>
+     
+		<div id="main">
+			<!--<div class="ym-column linearize-level-1">-->
+			<div class="ym-column">
+				<div class="ym-col1 ym-clearfix">
+					<div class="ym-cbox">
+                      <div id="navleft"><ul class="linklist"><li><a href="departments/algorithms-complexity/" >Algorithms &amp; Complexity</a></li><li><a href="departments/computer-vision-and-multimodal-computing/" >Computer Vision and Multimodal Computing</a></li><li><a href="departments/computational-biology-applied-algorithmics/" >Computational Biology &amp; Applied Algorithmics</a></li><li><a href="departments/computer-graphics/" >Computer Graphics</a></li><li><a href="departments/databases-and-information-systems/"  class="parent">Databases and Information Systems</a><ul class="linklist"><li><a href="departments/databases-and-information-systems/people/" >People</a></li><li><a href="departments/databases-and-information-systems/research/"  class="parent">Research</a><ul class="linklist"><li><a href="departments/databases-and-information-systems/offers/" >Offers</a></li><li><a href="departments/databases-and-information-systems/teaching/" >Teaching</a></li><li><a href="departments/databases-and-information-systems/news-events/" >News &amp; Events</a></li><li><a href="departments/databases-and-information-systems/publications/" >Publications</a></li><li class="last"><a href="departments/databases-and-information-systems/software/" >Software</a></li></ul></li><li class="last"><a href="departments/automation-of-logic/" >Automation of Logic</a></li></ul></div>
+					</div>
+			  </div>
+				<div class="ym-col3 ym-clearfix">
+				  <div class="ym-cbox">
+					<!--TYPO3SEARCH_begin-->
+	<!--  CONTENT ELEMENT, uid:6141/text [begin] -->
+		<div id="c6141" class="box">
+		<!--  Header: [begin] -->
+			<div class="box_header"><h1 class="csc-firstHeader">Exploring Latent Semantic Factors to Find Useful Product Reviews</h1></div>
+		<!--  Header: [end] -->
+			
+		<!--  Text: [begin] -->
+			<div class="box_content"><p class="bodytext" align=justify>
+Online reviews provided by consumers are a valuable asset for e-Commerce platforms, influencing potential consumers in making purchasing decisions. However, these reviews are of varying quality, with the useful ones buried deep within a heap of non-informative reviews. In this work, we attempt to automatically identify review quality in terms of its helpfulness to the end consumers. In contrast to previous works in this domain exploiting a variety of syntactic and community-level features, we delve deep into the semantics of reviews as to what makes them useful, providing interpretable explanation for the same. We identify a set of consistency and semantic factors, all from the text, ratings, and timestamps of user-generated reviews, making our approach generalizable across all communities and domains. We explore review semantics in terms of several latent factors like the expertise of its author, his judgment about the fine-grained facets of the underlying product, and his writing style. These are cast into a Hidden Markov Model - Latent Dirichlet Allocation (HMM-LDA) based model to jointly infer: (i) reviewer expertise, (ii) item facets, and (iii) review helpfulness. Large-scale experiments on five real-world datasets from Amazon show significant improvement over state-of-the-art baselines in predicting and ranking useful reviews.
+</p></div>
+		<!--  Text: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:6141/text [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:6143/text [begin] -->
+		<div id="c6143" class="box">
+		<!--  Header: [begin] -->
+			<div class="box_header"><h1>Publications</h1></div>
+		<!--  Header: [end] -->
+			
+		<!--  Text: [begin] -->
+			<div class="box_content"><ul><li>Subhabrata Mukherjee, Kashyap Popat and Gerhard Weikum.<br /><span style="font-weight: bold;"></span>Proc. of the 2017 SIAM International Conference on Data Mining (SDM). 2017.<br /><a href="http://people.mpi-inf.mpg.de/~smukherjee/research/helpful-reviews-sdm17.pdf" title="Opens external link in new window" target="_blank" class="external-link-new-window">[PDF]</a>&nbsp;<a href="http://people.mpi-inf.mpg.de/~smukherjee/slides/helpful-reviews-sdm17-slides.pdf" title="Opens external link in new window" target="_blank" class="external-link-new-window">[SLIDES]</a>&nbsp;<a href="http://people.mpi-inf.mpg.de/~smukherjee/research/helpful-reviews-sdm17.bib" title="Opens external link in new window" target="_blank" class="external-link-new-window">[BIB]</a></li></ul></div>
+		<!--  Text: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:6143/text [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:6145/text [begin] -->
+		<div id="c6145" class="box">
+		<!--  Header: [begin] -->
+		<!--  Header: [end] -->
+			
+		<!--  Text: [begin] -->
+			
+		<!--  Text: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:6145/text [end] -->
+		<!--TYPO3SEARCH_end--> <!-- colpos 0, content elements take 100% -->	
+					  
+			      <div class="ym-grid linearize-level-1"><!--TYPO3SEARCH_begin--><!--TYPO3SEARCH_end--><div class="clearer"><!-- --></div></div> <!-- colpos 1, content elements rendered in 2 columns 33%/66% --></div>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+		  <!-- content from fixed pageId rendered in every page -->
+		  <div class="ym-column">
+		    <div class="ym-col1"><div class="box_header"><h1>Connected Sites</h1></div>
+	<!--  CONTENT ELEMENT, uid:708/html [begin] -->
+		<div id="c708" class="csc-default">
+		<!--  Raw HTML content: [begin] -->
+			<div class="box_content">
+<p><a href="http://www.cs.uni-saarland.de/">Computer Science Saarland University</a></p>
+<p><a href="http://www.imprs-cs.de/" title="International Max Planck Research School for Computer Science">Doctoral Research Program (IMPRS-CS)</a></p>
+<p><a href="http://www.mmci.uni-saarland.de" title="Cluster of Excellence: Multimodal Computing and Interaction">Cluster of Excellence (MMCI)</a></p>
+</div>
+		<!--  Raw HTML content: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:708/html [end] -->
+		</div> <!-- colpos 0 -->
+		    <div class="ym-col2">
+	<!--  CONTENT ELEMENT, uid:712/html [begin] -->
+		<div id="c712" class="csc-default">
+		<!--  Raw HTML content: [begin] -->
+			<div class="box_content">
+<p>Copyright 2014</p>
+<p>by Max Planck Institute for Informatics</p>
+<p><a href="/sitemap">Sitemap</a>&nbsp;|&nbsp;<a href="/institute/address" title="Where you can find us, (campus) maps, travel guide">Location</a></p>
+<p><a href="/imprint">Imprint / Impressum</a></p>
+</div>
+		<!--  Raw HTML content: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:712/html [end] -->
+		</div> <!-- colpos 1 -->
+		    <div class="ym-col3">
+	<!--  CONTENT ELEMENT, uid:710/html [begin] -->
+		<div id="c710" class="csc-default">
+		<!--  Raw HTML content: [begin] -->
+			<div class="box_content">
+<p><a href="http://mpc-vcc.org/" title="MPC VCC">Max Planck Center for Visual Computing and Communication</a></p>
+<p><a href="/computer-science-cluster/">Kaiserslautern-Saarbr&uuml;cken Computer Science Cluster</a></p>
+<p><a href="http://www.infomath-bib.de/" title="Your library on the campus">Campusbibliothek f&uuml;r Informatik und Mathematik</a></p>
+</div>
+		<!--  Raw HTML content: [end] -->
+			</div>
+	<!--  CONTENT ELEMENT, uid:710/html [end] -->
+		</div> <!-- colpos 2 -->
+	      </div>
+	  </div>
+	</div>
+</div>
+<div class="page_footer"><!-- --></div>
+
+<script src="typo3conf/ext/cl_jquery_fancybox/fancybox2/jquery.mousewheel-3.0.6.pack.js?1374837260" type="text/javascript"></script>
+<script src="typo3conf/ext/cl_jquery_fancybox/fancybox2/jquery.fancybox.js?1374837260" type="text/javascript"></script>
+<script src="typo3temp/javascript_bac279cc4a.js?1400747219" type="text/javascript"></script>
+
+
+</body>
+</html>

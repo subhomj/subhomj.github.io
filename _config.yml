@@ -1,5 +1,4 @@
 theme: jekyll-theme-architect
 plugins:
   - jekyll-seo-tag
-gems:
-  - jekyll-seo-tag
+  - jekyll-sitemap

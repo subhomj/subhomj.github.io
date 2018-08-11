@@ -29,11 +29,7 @@ a#hp-index, a:link#hp-index, a:visited#hp-index {background: rgb(80%,85%,90%);}
 <h3><a name="biography">Short Biography</a></h3>
 <ul>
 
-<<<<<<< HEAD
-I am a Machine Learning Scientist at Amazon (Seattle) building the Amazon Product Knowledge Graph. I work on developing machine learning and deep learning models for open information extraction and representation learning. I graduated <a href="https://en.wiktionary.org/wiki/summa_cum_laude" target="_blank">summa cum laude</a> from the Max Planck Institute for Informatics (Germany) advised by <a href = "https://people.mpi-inf.mpg.de/~weikum/" target="_blank">Prof. Gerhard Weikum</a>. My research interests involve representation learning, graphical models and generative models to capture the joint interaction between structure, content, and dynamics of information --- with a particular focus on interpretability.</br></br> 
-=======
-I am a Machine Learning Scientist at Amazon (Seattle) building the Amazon Product Knowledge Graph. I work on developing machine learning and deep learning models for open information extraction and representation learning. I graduated <a href="https://en.wiktionary.org/wiki/summa_cum_laude" target="_blank">summa cum laude</a> from the Max Planck Institute for Informatics (Germany) advised by <a href = "https://people.mpi-inf.mpg.de/~weikum/" target="_blank">Prof. Gerhard Weikum</a>. My research interests involve representation learning, graphical models and generative models to capture the joint interaction between structure, content, and dynamics of information --- with a particular focus on interpretability. </br></br> 
->>>>>>> 741c45b2864a6ab133eb72887c6bfc246384e9d7
+I am a Machine Learning Scientist at Amazon (Seattle) building the Amazon Product Knowledge Graph. I work on developing machine learning and deep learning models for open information extraction and representation learning. I graduated <a href="https://en.wiktionary.org/wiki/summa_cum_laude" target="_blank">summa cum laude</a> from the Max Planck Institute for Informatics (Germany) advised by <a href = "https://people.mpi-inf.mpg.de/~weikum/" target="_blank">Prof. Gerhard Weikum</a>. My research interests involve representation learning, graphical models and generative models to capture the joint interaction between structure, content, and dynamics of information --- with a particular focus on interpretability. My doctoral thesis obtained the prestigious KDD-dissertation distinction (one of the top-3 best doctoral dissertations world-wide, SIGKDD 2018).</br></br> 
 
 <!--I am currently working on evolution of influence, user preferences and expertise in online communities with a particular focus on recommender systems. I am also working on interpretable deep learning models for text mining.</br></br> -->
 
@@ -67,10 +63,7 @@ In my PhD dissertation, I worked on probabilistic graphical models to extract "c
 
 <h3><a name="news">Recent News</a></h3>
     <ul>
-<<<<<<< HEAD
-<li> Paper accepted in EMNLP 2018, Brussels, Belgium. We present "DeClarE: Debunking Fake News and False Claims using Evidence-Aware Deep Learning" --- an end-to-end neural network model for fact-checking arbitrary textual claims that also generates human-interpretable evidence for its verdict. Congrats to all my co-authors Kashyap Popat (Max Planck Institute), Andrew Yates (Max Planck Institute) and Gerhard Weikum (Max Planck Institute).</li><br>
-=======
->>>>>>> 741c45b2864a6ab133eb72887c6bfc246384e9d7
+<li> KDD-dissertation distinction (one of the top-3 best doctoral dissertations world-wide, SIGKDD 2018)</li><br>
 <li> Paper accepted as an oral presentation in SIGKDD 2018, London (8% acceptance rate). Our work "<a href="research/OpenTag-KDD18.pdf" target="_blank">OpenTag: Open Attribute Value Extraction from Product Profiles</a>" brings deep learning and active learning together for state-of-the-art imputation and open entity extraction system. Congrats to all my co-authors Guineng Zheng (Univ. of Utah), Xin Luna Dong (Amazon), and Feifei Li (Univ. of Utah).
 </li><br>
 <li> Presenting 2 tutorials in SIGKDD 2018, London, UK:
@@ -158,23 +151,12 @@ Journal of Web Semantics, Journal of Human-Computer Studies</li>
 
     <h3><a name="publications">Research Areas and Publications</a>&nbsp;<a href="http://dblp.uni-trier.de/pers/hy/m/Mukherjee:Subhabrata" target="_blank">[DBLP]</a>&nbsp;<a href="https://scholar.google.de/citations?user=T4iBN5cAAAAJ&hl=en" target="_blank">[Google Scholar]</a></h3>
     
-<<<<<<< HEAD
-<h3><a name="publications">Information Extraction, Representation Learning</a></h3>
-=======
 <h3><a name="publications">Information Extraction</a></h3>
->>>>>>> 741c45b2864a6ab133eb72887c6bfc246384e9d7
 <ul>
 <li><b><a href="research/OpenTag-KDD18.pdf" target="_blank">OpenTag: Open Attribute Value Extraction from Product Profiles</a></b> [Tags: Deep Sequence Tagging, BiLSTM-CRF, Attention, Active Learning] <br>
 Guineng Zheng, Subhabrata Mukherjee, Xin Luna Dong, Feifei Li<br>
 In <b>KDD 2018</b>, London, UK (Acceptance rate: 8%)
 </li><br>
-<<<<<<< HEAD
-<li><b>DeClarE: Debunking Fake News and False Claims using Evidence-Aware Deep Learning</b> [Tags: Rumor / Hoax, Stance, Evidence, BiLSTM, Attention] <br>
-Kashyap Popat, Subhabrata Mukherjee, Andrew Yates, Gerhard Weikum<br>
-In <b>EMNLP 2018</b>, Brussels, Belgium
-</li><br>
-=======
->>>>>>> 741c45b2864a6ab133eb72887c6bfc246384e9d7
 </ul>
 <h3><a name="publications">Finding Experts, Personalized Recommendation, User / Community Evolution, Topic / Generative Models, Review Communities</a></h3>
 
@@ -345,14 +327,6 @@ target="_blank"><img class="statcounter"
 src="//c.statcounter.com/10974008/0/2506d119/0/"
 alt="shopify visitor statistics"></a></div></noscript>
 
-<<<<<<< HEAD
-=======
-</hr>
-<div id="footer">Copyright 2008 by <a href="/" title="Home Page of the Max-Planck-Institute Informatik">Max-Planck-Institut&nbsp;Informatik</a> | <a href="https://imprint.mpi-klsb.mpg.de/inf/people/smukherjee">Imprint</a> | <a href="https://data-protection.mpi-klsb.mpg.de/inf/people/smukherjee">Data Protection</a><br />
-
-    </div>
-
->>>>>>> 741c45b2864a6ab133eb72887c6bfc246384e9d7
 </body>
 
 </html>
